@@ -122,8 +122,9 @@ def main():
             dynamic = True
         else:
             dynamic = False
-            page_names.append(page_name)
-            route_paths.append(route_path)
+
+        page_names.append(page_name)
+        route_paths.append(route_path)
 
         add_more = input(
             "Do you want to add more pages? (y/n): ").lower().strip()
